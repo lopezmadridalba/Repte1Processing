@@ -12,8 +12,8 @@ void draw() {
   strokeWeight(4);
   fill(#336699);
  // ellipse(width/2,height/2,100,100); // per crear una elipse d'aquestes mides al centre de la pantalla
-  //ellipse(x,height/2,100,100);
+  ellipse(x,height/2,100,100);
   fill(#669933);
-  //stroke(#ffffff);
+  stroke(#ffffff);
   rect(50,50,70,70);
 }
