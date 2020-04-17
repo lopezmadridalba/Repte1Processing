@@ -1,0 +1,15 @@
+El primer pas per fer el projecte és crear una room.
+
+Per poder fer la ball, es farà a partir de un sprite. També, ho farem per cada paret de la pantalla perquè reboti la ball, així que farem els sprites.
+
+Un cop realitzat, li apliquem els colors i les mides corresponents/desitjades, desde l'edició del sprite, per cadascuna de les parets.
+
+Un cop realitzats els sprites per la ball i les parets, hem de crear un objecte per cada sprite realitzat, on s'aplicaran les caracterísitiques als objectes.
+
+A l'hora de aplicar les caracterísitques, les he aplicat a la ball per poder-ho fer més facil, per tant els objectes serán per fer de pared, i a la pilota
+li aplicarem els colliders de manera que quan col·lisiona amb la pared, en aquest cas revotarà i canviarà de color.
+
+Les accions funcionarán de manera que quan la ball col·lisioni amb les parets, aplicarà una força a la pilota i canviarà el seu color.
+
+Un cop tot configurat, es col·locarar tot a la room, com les parets i la ball.
+
